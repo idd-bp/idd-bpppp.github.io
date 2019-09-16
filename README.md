@@ -3,7 +3,7 @@
 - Site structure
     - [Example Link](https://www.georgebrown.ca/programs/interaction-design-and-development-program-g103/)
 - Visuals
-    - 
+    - [Example Link](https://www.behance.net/gallery/55840289/Dark-Minimal-Website-design-UIUX-Design?tracking_source=search%7Cmodern%20website)
 ### Content List
 - Header
     - Logo
