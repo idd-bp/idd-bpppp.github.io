@@ -1,2 +1,57 @@
 # Interaction Design: Course Website
+### Inspirations
+- Site structure
+    - [Example Link](https://www.georgebrown.ca/programs/interaction-design-and-development-program-g103/)
+- Visuals
+    - 
+### Content List
+- Header
+    - Logo
+    - Menu
+        - Overview of Program
+        - Careers
+        - Admission
+        - Tuition
+        - Contact Us
+- Overview of Program
+    - Program Description
+        - Intro
+        - Why take this program
+        - Importance
+        - What is learned
+        - What is achieved
+    - Course List
+        - Courses
+        - Course description
+    - Skills
+        - Skills achieved through program
+    - Resources
+        - Resources used in program
+- Careers  
+    - Possible Paths
+        - Job possibilities
+        - Other programs
+    - Program Graduates
+        - Success stories
+    - Coop and Internship
+        - Internship and coop posibilities
+- Asmission
+    - How to Qualify
+        - List of qualifications
+    - How to Apply
+        - Step by step process on application
+- Tuition
+    - Fees
+        - Fees breakdown and description
+    - Financial Aids and Scholarships
+        - Info about Financial Aid
+- Contact Us
+    - Address
+    - Phone number, e-mail, social media
+- Footer
+    - Copyright
+    - Contact Info
+        - Address
+        - Email, phone number, social media
+### Design Guide
 
