@@ -17,7 +17,6 @@
     - Program Description
         - Intro
         - Why take this program
-        - Importance
         - What is learned
         - What is achieved
     - Course List
