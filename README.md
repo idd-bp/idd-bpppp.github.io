@@ -54,3 +54,21 @@
         - Email, phone number, social media
 ### Design Guide
 
+- Colours
+    - Primary: `#2a2b2e`
+        - Primary Light: `#525457`
+        - Primary Dark: `#000003`
+        - Text on Primary: `#ffffff`
+    - Secondary: `#f1f0ea`
+        - Secondary Light: `#ffffff`
+        - Secondary Dark: `#bebeb8`
+        - Text on Secondary: `#000000`
+- Fonts
+    - h1: `Extra-Bold normal` 4em/6 `Spectral`
+    - h2: `Bold normal` 3em/3 `Spectral`
+    - h3: `Medium italic` 2em/2 `Spectral`
+    - p: `Regular normal`1em/1.5 `Open Sans`
+
+
+
+
