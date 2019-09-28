@@ -64,10 +64,10 @@
         - Secondary Dark: `#bebeb8`
         - Text on Secondary: `#000000`
 - Fonts
-    - h1: `Extra-Bold normal` 4em/6 `Spectral`
+    - h1: `Bold normal` 4em/2 `Spectral`
     - h2: `Bold normal` 3em/3 `Spectral`
-    - h3: `Medium italic` 2em/2 `Spectral`
-    - p: `Regular normal`1em/1.5 `Open Sans`
+    - h3: `Medium normal` 2em/2 `Spectral`
+    - p: `normal normal`1em/2 `Open Sans`
 
 
 
