@@ -129,3 +129,12 @@ ul{
     background-color: var(--secondary-b);
 }
 
+.definition-list dt {
+    font: bold normal 1em/1 var(--font-a);
+    margin: 1em;
+}
+
+.definition-list dd {
+    font: normal normal 1em/1 var(--font-b);
+    margin: 1em;
+}
