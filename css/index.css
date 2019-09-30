@@ -19,17 +19,21 @@ html {
     --font-b: 'Open Sans', sans-serif;
 }
 
-h1{
-    font: bold normal 4em/2 var(--font-a);
+body {
+    margin: 0;
+}
+
+h1{ 
+    font: bold normal 1em/3 var(--font-a);
     color: var(--on-primary);
     background-color: var(--primary-b);
     margin: 0;
-    padding: 1em;
+    padding: 0.5em;
     text-align: center;
 }
 
 h2{
-    font: bold normal 3em/2 var(--font-a);
+    font: bold normal 1em/2 var(--font-a);
     color: var(--on-primary);
     background-color: var(--primary-a);
     margin: 0;
@@ -38,7 +42,7 @@ h2{
 }
 
 h3{
-    font: normal normal 2em/2 var(--font-a);
+    font: normal normal 1em/1 var(--font-a);
     color: var(--on-secondary);
     background-color: var(--secondary);
     margin: 0;
@@ -47,7 +51,7 @@ h3{
 }
 
 h4{
-    font: bold normal 1em/1 var(--font-b);
+    font: bold normal var(--font-b);
     color: var(--on-primary);
     margin: 0;
     padding: 1em 1em 0;
@@ -56,14 +60,13 @@ h4{
 
 
 p{
-    font: normal normal 1em/2 var(--font-b);
+    font: normal normal var(--font-b);
     color: var(--on-secondary);
     margin: 1em;
-
 }
 
 ul{
-    list-style-type: none;
+    list-style-type: none; 
     padding: 0;
 }
 
@@ -83,12 +86,12 @@ ul{
 }
 
 
-.logo img {
+.logo {
     display: in-line;
     max-width: 20%;
 }
 
-.menubar ul{
+.menubar ul{  
     margin: 0;
 }
 
@@ -103,7 +106,7 @@ ul{
     font: normal normal 1em/1 var(--font-b);
     color: var(--on-primary);
     text-decoration: none;
-    padding: 2em;
+    padding: 1em;
     margin: 0.25em 0 0;
     max-width: 100%;
     background-color: var(--primary-a);
@@ -124,17 +127,35 @@ ul{
     font: normal normal 1em/1 var(--font-b);
     color: var(--on-secondary);
     text-decoration: none;
-    padding: 2em;
+    padding: 1em;
     margin: 0.25em 0 0;
     background-color: var(--secondary-b);
 }
 
 .definition-list dt {
-    font: bold normal 1em/1 var(--font-a);
+    font: bold normal var(--font-a);
     margin: 1em;
 }
 
 .definition-list dd {
-    font: normal normal 1em/1 var(--font-b);
+    font: normal normal var(--font-b);
     margin: 1em;
+}
+
+.searchbar {
+    text-align: start;
+    width: 75%;
+    border-radius: 0.5em;
+    margin: 1em;
+}
+
+.search-button{
+    background-color: var(--secondary);
+    border: 0em;
+    border-radius: 0.5em;
+    margin: 1em 1em 1em 0;
+}
+
+.search-button img {
+    max-width: 25%;
 }
