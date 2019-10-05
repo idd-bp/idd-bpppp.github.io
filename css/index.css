@@ -27,6 +27,10 @@ body {
     margin: 0;
 }
 
+main {
+    background-color: var(--primary);
+}
+
 a{
     text-decoration: none;
     color: var(--on-primary);
@@ -112,10 +116,6 @@ a:hover{
     color: var(--secondary-b);
 }
 
-.page-img{
-
-}
-
 .sub-paragraph li{
     margin: 1em 0 1em 0;
 }
@@ -138,10 +138,62 @@ a:hover{
     content: " \00a9  2019"
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
+    main>div{
+        max-width: 500px;
+        margin: 0 auto;
+    }
 
+    main>h1{
+        max-width: 500px;
+        margin: 0 auto;
+    }
 }
 
-@media screen and (min-width: 1200px) {
-    
+@media screen and (min-width: 800px) {
+    main>div{
+        max-width: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main>h1 {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .page-img {
+        width: 100%;
+        /* how to fill the whole div (see Couses section) */
+    }
+
+    .contacts {
+        display: block;
+    }
+
+    .contacts ul {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main>div{
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main>h1 {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .menubar button {
+        display: none;
+    }
+
+    .menubar li {
+        display: inline;
+        padding: 0 2em 0 2em;
+    }
 }
