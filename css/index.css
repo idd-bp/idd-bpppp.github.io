@@ -8,6 +8,7 @@ html {
     --secondary-a: #ffffff;
     --secondary-b: #bebeb8;
     --error: #b00020;
+    --links: #90E0F3;
 
     /*** Foreground Colours ***/
     --on-primary: #ffffff;
@@ -20,59 +21,107 @@ html {
 }
 
 body {
-    margin: 0;
-}
-
-h1{ 
-    font: bold normal 1em/3 var(--font-a);
-    color: var(--on-primary);
-    background-color: var(--primary-b);
-    margin: 0;
-    padding: 0.5em;
-    text-align: center;
-}
-
-h2{
-    font: bold normal 1em/2 var(--font-a);
-    color: var(--on-primary);
-    background-color: var(--primary-a);
-    margin: 0;
-    padding: 0.5em;
-    text-align: center;
-}
-
-h3{
-    font: normal normal 1em/1 var(--font-a);
-    color: var(--on-secondary);
     background-color: var(--secondary);
-    margin: 0;
-    padding: 0.5em;
-    text-align: left;
-}
-
-h4{
-    font: bold normal var(--font-b);
-    color: var(--on-primary);
-    margin: 0;
-    padding: 1em 1em 0;
-    text-align: center;
-}
-
-
-p{
-    font: normal normal var(--font-b);
     color: var(--on-secondary);
-    margin: 1em;
+    font: normal normal 1em/1 var(--font-b), sans-serif;
+    margin: 0;
 }
 
-ul{
-    list-style-type: none; 
-    padding: 0;
+a{
+    text-decoration: none;
+    color: var(--on-primary);
 }
 
-.topbar {
+a:hover{
+    text-decoration: underline;
+}
+
+.topbar{
     background-color: var(--primary);
     text-align: center;
+}
+
+.topbar h1{
+    color: var(--on-primary);
+    font: bold normal 1em/1 var(--font-b) , sans-serif;
+}
+
+.menubar {
+    padding: 1em 0 1em 0;
+}
+
+.menubar ul{
+    margin: 1em 0 1em 0;
+}
+
+.menubar button{
+    display: inline;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.menubar li{
+    margin: 0.75em 0 0.75em 0;
+    color: var(--on-primary);
+}
+
+.logo {
+    max-width: 10%;
+    height: auto'
+}
+
+.icon {
+    display: inline;
+    max-width: 5%;
+    border: 0;
+}
+
+.main-title {
+    color: var(--on-secondary);
+    font-family: var(--font-a), serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    padding: 1em;
+    background-color: var(--secondary);
+}
+
+.sub-paragraph {
+    color: var(--on-primary);
+    background-color: var(--primary-a);
+    font-family: var(--font-b), sans-serif;
+    font-size: 1em;
+    padding: 1em 2em 1em 2em;
+}
+
+.sub-paragraph p{
+    margin: 1em 0 0 0;
+}
+
+.sub-paragraph dl{
+    padding: 0 0 1em 0;
+}
+
+.sub-paragraph dt{
+    padding: 1em 0 0 1em;
+}
+
+.sub-paragraph dd{
+    padding: 0 0 0 1em;
+    color: var(--secondary-b);
+}
+
+.page-img{
+
+}
+
+.sub-paragraph li{
+    margin: 1em 0 1em 0;
+}
+
+.contact-bar a{
+    color: var(--links);
 }
 
 .bottombar {
@@ -80,82 +129,19 @@ ul{
     text-align: center;
 }
 
-.bottombar p {
+.bottombar h1{
     color: var(--on-primary);
-    margin: 0;
-}
-
-
-.logo {
-    display: in-line;
-    max-width: 20%;
-}
-
-.menubar ul{  
-    margin: 0;
-}
-
-.menubar li {
-   color: var(--on-primary);
-   text-align: center;
-   line-height: 6em;
-}
-
-.menubar a {
-    display: block;
-    font: normal normal 1em/1 var(--font-b);
-    color: var(--on-primary);
-    text-decoration: none;
     padding: 1em;
-    margin: 0.25em 0 0;
-    max-width: 100%;
-    background-color: var(--primary-a);
 }
 
-.contactbar ul {
-    margin: 0.25em 0;
+.bottombar h1:after{
+    content: " \00a9  2019"
 }
 
-.contactbar li {
-    color: var(--on-secondary);
-    text-align: center;
-    line-height: 6em;
+@media screen and (min-width: 800px) {
+
 }
 
-.contactbar a {
-    display: block;
-    font: normal normal 1em/1 var(--font-b);
-    color: var(--on-secondary);
-    text-decoration: none;
-    padding: 1em;
-    margin: 0.25em 0 0;
-    background-color: var(--secondary-b);
-}
-
-.definition-list dt {
-    font: bold normal var(--font-a);
-    margin: 1em;
-}
-
-.definition-list dd {
-    font: normal normal var(--font-b);
-    margin: 1em;
-}
-
-.searchbar {
-    text-align: start;
-    width: 75%;
-    border-radius: 0.5em;
-    margin: 1em;
-}
-
-.search-button{
-    background-color: var(--secondary);
-    border: 0em;
-    border-radius: 0.5em;
-    margin: 1em 1em 1em 0;
-}
-
-.search-button img {
-    max-width: 25%;
+@media screen and (min-width: 1200px) {
+    
 }
