@@ -20,6 +20,10 @@ html {
     --font-b: 'Open Sans', sans-serif;
 }
 
+p{
+    line-height: 1.5em;
+}
+
 body {
     background-color: var(--secondary);
     color: var(--on-secondary);
@@ -72,7 +76,7 @@ a:hover{
 
 .logo {
     max-width: 10%;
-    height: auto'
+    height: auto;
 }
 
 .icon {
@@ -160,11 +164,6 @@ a:hover{
     main>h1 {
         max-width: 800px;
         margin: 0 auto;
-    }
-
-    .page-img {
-        width: 100%;
-        /* how to fill the whole div (see Couses section) */
     }
 
     .contacts {
